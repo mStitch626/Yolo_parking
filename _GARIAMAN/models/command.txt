@@ -1,0 +1,12 @@
+yolo task=detect mode=export model=best.pt format=ncnn simplify=True opset=12 imgsz=320 half=True
+yolo task=detect mode=export model=yolov8n.pt format=ncnn simplify=True opset=12 imgsz=416 half=True
+yolo task=detect mode=export model=yolov8s.pt format=ncnn simplify=True opset=12 imgsz=640 half=True
+
+yolo task=detect mode=export model=best.pt format=tflite simplify=True opset=12 imgsz=416 half=True
+
+yolo task=detect mode=export model=best.pt format=onnx imgsz=320
+a
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+yolo task=detect mode=export model=best.pt format=onnx imgsz=224
+yolo task=detect mode=export model=best.pt format=tflite simplify=True opset=12 imgsz=224 half=True
+yolo task=detect mode=export model=best.pt format=ncnn simplify=True opset=12 imgsz=224 half=True

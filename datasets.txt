@@ -1,0 +1,12 @@
+------------------ use in raport
+
+https://universe.roboflow.com/lounisamr/ocr-dz/dataset/2
+
+https://universe.roboflow.com/lounisamr/car-plate-dzex/dataset/2
+
+------------------ use but not use in raport
+
+https://universe.roboflow.com/lounisamr/dz-ocr-car-plate/dataset/1
+
+
+https://universe.roboflow.com/lounisamr/ocr-integer-v2/dataset/1
